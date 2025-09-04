@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000"; // backend URL
+const API = import.meta.env.VITE_API_URL;
+
+
 
 function App() {
   const [trends, setTrends] = useState(null);
