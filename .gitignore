@@ -1,0 +1,18 @@
+﻿# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Python specific
+__pycache__/
+*.pyc
+db.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
